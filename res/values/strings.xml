@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- basic -->
+    <string name="app_name">Portfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- drawer string list -->
+    <string name="drawer_open">Open !</string>
+    <string name="drawer_close">Close !</string>
+    <string name="drawer_resume">Resume</string>
+    <string name="drawer_project">Project</string>
+    <string name="drawer_profile">Profile</string>
+
+    <!-- Project Detail -->
+    <string name="project_detail_detail">Details</string>
+    <string name="project_detail_screenshot">Screenshot</string>
+
+    <!-- Project Sum -->
+    <string name="project_sum_more_information">More information</string>
+
+    <!-- Contact -->
+    <string name="contact_cant_use_call">Etant actuellement en Corée du Sud dans le cadre de mes études il est impossible de me contacter autrement que par email avant mon retour le 7 juillet.</string>
+    <string name="contact_motivation_title">Motivation</string>
+    <string name="contact_motivation_content">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don\'t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn\'t anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</string>
+    <string name="contact_goal">A la recherche d\'un part-time 3j/semaine dans le domaine du développement Android</string>
+
+    <!-- Common -->
+    <string name="common_close">Close</string>
+
+    <!-- Error -->
+    <string name="error_mail">Can't find mail application</string>
+    
+</resources>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tile_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip" >
+
+        <ImageView
+            android:id="@+id/image_view_app_icon"
+            android:layout_width="75dip"
+            android:layout_height="75dip"
+            android:contentDescription="@null" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_view_title"
+        style="@style/text_part_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" />
+
+    <TextView
+        android:id="@+id/text_view_description"
+        style="@style/text_part_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:ellipsize="end"
+        android:maxLines="4" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/tile_separator"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/text_view_more_information"
+        style="@style/text_part_more_informations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dip"
+        android:background="@drawable/selector_common_white_grey"
+        android:clickable="true"
+        android:includeFontPadding="false"
+        android:padding="7dip"
+        android:text="@string/project_sum_more_information" />
+
+</LinearLayout>

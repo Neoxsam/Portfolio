@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_mail"
+          android:icon="@drawable/ic_content_email"
+          android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_call"
+          android:icon="@drawable/ic_device_access_call"
+          android:showAsAction="ifRoom" />
+</menu>

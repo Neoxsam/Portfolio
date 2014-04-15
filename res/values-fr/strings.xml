@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">portfolio</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- drawer string list -->
+    <string name="drawer_open">Open !</string>
+    <string name="drawer_close">Close !</string>
+    <string name="drawer_resume">Resume</string>
+    <string name="drawer_project">Project</string>
+    <string name="drawer_contact">Contact</string>
+
+    <!-- Contact -->
+    <string name="contact_cant_use_call">Etant actuellement en Corée du Sud dans le cadre de mes études il est impossible de me contacter autrement que par email avant mon retour le 7 juillet.</string>
+
+    <!-- Contact -->
+    <string name="common_close">Open !</string>
+    
+</resources>

@@ -1,0 +1,161 @@
+{
+   "data":[
+      {
+         "icon":"ic_app_mulhouse",
+         "title":"Stationnement Mulhouse",
+         "description":"
+Simplifiez-vous le Stationnement! 
+Voici la 1ère application de paiement mobile du stationnement de la ville de Mulhouse sans inscription, ni création de compte, pour les usagers visiteurs comme résidents ! 
+Achetez votre ticket courte durée : je saisis ma plaque, ma zone (aide à la géolocalisation) puis ma durée. 
+Plus de ticket derrière le pare-brise! 
+Les agents de contrôle vérifient le paiement à partir de l’immatriculation que j’ai saisie. 
+Gratuitement, je suis alerté 10 minutes avant la fin de mon ticket de stationnement. 
+Je peux prolonger facilement à distance! 
+Je peux localiser ma voiture à l’achat de mon ticket et consultez les « Infos voirie » en continu. 
+A partir de Mon Compte, j’ai accès à l’historique de mes paiements, mes véhicules et mon code PIN.
+",
+         "duration":"2 mois",
+         "role":"Lead développeur Android. Réalisationde l'intégralité de l'application mobile.",
+         "company":"Backelite",
+         "marketLink":"com.sfr.parking.mulhouse",
+         "githubLink":"",
+         "screenshot":[
+            {
+               "picture":"sfr_1"
+            },
+            {
+               "picture":"sfr_2"
+            },
+            {
+               "picture":"sfr_3"
+            },
+            {
+               "picture":"sfr_4"
+            }
+         ]
+      },
+            {
+         "icon":"ic_food_navigator",
+         "title":"FoodNavigator",
+         "description":"
+Access all food ingredients and food technology news from FoodNavigator.com wherever you are with our free Android app. Enjoy the latest articles and multimedia content, follow breaking stories live and receive alerts in real time – the power is in your hands.
+Free to download and easy to use, the FoodNavigator app puts the very latest food and beverage development industry news at your fingertips, even when you’re not connected to the internet.
+Features: 
+<br/>- Follow breaking news in real time, classified by topic for ease of use (food science, food additives, sweeteners, flavours, etc…) 
+<br/>- Read all your favourite news even when you are offline 
+<br/>- Receive news alerts in real time 
+<br/>- Select news relevant to your region (Americas, Europe, Middle East and Africa, Asia-Pacific) 
+<br/>- Access exclusive videos, podcasts and image galleries fully optimised for your mobile 
+<br/>- Bookmark your favourite articles 
+<br/>- Share your views in real time with our newsroom and FoodNavigator readers 
+<br/>- Share your favourite content",
+         "duration":"2 mois",
+         "role":"Réalisation de l'application en duo avec un autre developpeur à part égale de responsabilité.",
+         "company":"Système Polaire",
+         "marketLink":"com.wrbm.foodnavigator",
+         "githubLink":"",
+         "screenshot":[
+            {
+               "picture":"food_navigator_1"
+            },
+            {
+               "picture":"food_navigator_2"
+            },
+            {
+               "picture":"food_navigator_3"
+            },
+            {
+               "picture":"food_navigator_4"
+            }
+         ]
+      },
+            {
+         "icon":"ic_sentinelo",
+         "title":"Sentinelo",
+         "description":"
+Sentinelo est une application révolutionnaire qui vous permet de faire vos achats dans les meilleures conditions, à proximité, quand vous le voulez, à l’endroit où vous vous trouvez.
+Décrivez l’objet ou le service que vous cherchez, Sentinelo vous propose les meilleurs résultats et vous guide même à destination !
+Vous devez faire un achat de dernière minute sans idée précise ? Sentinelo vous indique toutes les bonnes affaires à proximité en fonction de votre budget et de vos envies.
+Mode, multimédia, restauration, produits de beauté, coiffeurs, hôtels, location de véhicule, alimentation, etc. Sentinelo référence tous les produits disponibles dans les magasins aux alentours et vous propose les meilleures affaires du moment ainsi que des discounts exclusifs.
+Sentinelo c'est l'assurance de voir immédiatement, de toucher et d’essayer en boutique le produit dont vous avez envie.
+Sentinelo est entièrement gratuit et sans abonnement.",
+         "duration":"2 mois",
+         "role":"Réalisation de l'application en duo avec un autre developpeur à part égale de responsabilité.",
+         "company":"Système Polaire",
+         "marketLink":"com.sentinelo.sentinelo",
+         "githubLink":"",
+         "screenshot":[
+            {
+               "picture":"sentinelo_1"
+            },
+            {
+               "picture":"sentinelo_2"
+            },
+            {
+               "picture":"sentinelo_3"
+            },
+            {
+               "picture":"sentinelo_4"
+            }
+         ]
+      },
+            {
+         "icon":"ic_jukeboard",
+         "title":"Jukeboard",
+         "description":"
+Jukeboard vous permet de contrôler la musique du lieu dans lequel vous êtes.
+Lancez l'application, sélectionnez un lieu en fonction de votre position géographique, consultez la liste de lecture en cours et commandez gratuitement une diffusion de titre. Votre sélection sera jouée à la fin de la chanson en cours !
+Attention cependant, votre commande doit respecter les styles musicaux choisis par le gérant et ne pas avoir déjà été diffusée précédemment.
+De plus, l'application Jukeboard ne vous permet de commander des titres que dans les établissements utilisant le portail web Jukeboard réservé aux professionnels afin de gérer automatiquement leur ambiance musicale.
+Vous êtes un professionnel et vous désirez essayer le portail Jukeboard gratuitement afin de permettre à vos clients d'utiliser cette application chez vous ? Connectez vous sur www.jukeboard.eu !",
+         "duration":"",
+         "role":"Réalisation des versions 1.0 et 2.0 + mise à jour intermédiaire.",
+         "company":"Freelance pour la société Smart Pixel",
+         "marketLink":"com.smart_pixel.jukeboard",
+         "githubLink":"",
+         "screenshot":[
+            {
+               "picture":"jukeboard_1"
+            },
+            {
+               "picture":"jukeboard_2"
+            },
+            {
+               "picture":"jukeboard_3"
+            },
+            {
+               "picture":"jukeboard_4"
+            }
+         ]
+      },
+             {
+         "icon":"ic_social_movie_finder",
+         "title":"Social Movie Finder",
+         "description":"
+Social Movie Finder uses your Facebook account's 'likes' data to help you find a movie to watch! Look at your friends' tastes and discover what movies they like that you haven't seen yet!
+You can't download movies with this application!
+         
+         ",
+         "duration":"2 weeks",
+         "role":"Réalisation de l'intégralité de l'application.",
+         "company":"Projet personnel",
+         "marketLink":"com.neoxsam.socialmoviesfinder",
+         "githubLink":"https://github.com/Neoxsam/SocialMovieFinder",
+         "screenshot":[
+            {
+               "picture":"social_movie_finder_1"
+            },
+            {
+               "picture":"social_movie_finder_2"
+            },
+            {
+               "picture":"social_movie_finder_3"
+            },
+            {
+               "picture":"social_movie_finder_4"
+            }
+         ]
+      }
+ 
+   ]
+}

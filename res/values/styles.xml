@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Text Style -->
+
+    <style name="text_part_title">
+        <item name="android:textColor">@color/grey_text</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="text_part_more_informations">
+        <item name="android:textColor">@color/blue_text</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="text_part_name">
+        <item name="android:textColor">@color/grey_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_part_content">
+        <item name="android:textColor">@color/grey_text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="android:style/Theme.Holo.Light.DarkActionBar"></style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar"></style>
+
+</resources>

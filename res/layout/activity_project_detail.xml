@@ -1,0 +1,191 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_common" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:background="@drawable/tile_background"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/image_view_project_icon_app"
+                android:layout_width="match_parent"
+                android:layout_height="100dip"
+                android:contentDescription="@null"
+                android:src="@drawable/ic_app_mulhouse" />
+
+            <TextView
+                android:id="@+id/text_view_project_title"
+                style="@style/text_part_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:gravity="center_horizontal"/>
+
+            <TextView
+                android:id="@+id/text_view_project_description"
+                style="@style/text_part_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:gravity="left"
+                android:text="@string/contact_motivation_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/tile_background"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                style="@style/text_part_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/project_detail_detail" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/tile_separator"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/text_view_project_duration"
+                style="@style/text_part_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:drawableLeft="@drawable/ic_device_access_data_usage"
+                android:drawablePadding="5dip" />
+
+            <TextView
+                android:id="@+id/text_view_project_company"
+                style="@style/text_part_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:drawableLeft="@drawable/ic_location_place"
+                android:drawablePadding="5dip" />
+
+            <TextView
+                android:id="@+id/text_view_project_role"
+                style="@style/text_part_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:drawableLeft="@drawable/ic_content_paste"
+                android:drawablePadding="5dip"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_play_store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/tile_background"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/image_button_play_store"
+                android:layout_width="wrap_content"
+                android:layout_height="70dip"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_common_white_grey"
+                android:clickable="true"
+                android:onClick="onClickPlayStore"
+                android:src="@drawable/bg_google_play_button"
+                android:contentDescription="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_github"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/tile_background"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/image_button_github"
+                android:layout_width="wrap_content"
+                android:layout_height="70dip"
+                android:layout_gravity="center"
+                android:background="@drawable/selector_common_white_grey"
+                android:clickable="true"
+                android:onClick="onClickGithub"
+                android:src="@drawable/bg_github_link"
+                android:contentDescription="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginBottom="10dip"
+            android:background="@drawable/tile_background"
+            android:isScrollContainer="true"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                style="@style/text_part_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/project_detail_screenshot" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/tile_separator"
+                android:contentDescription="@null" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <com.neoxsam.portfolio.view.GalleryCustomView
+                        android:id="@+id/custom_view_gallery"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

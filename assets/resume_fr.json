@@ -1,0 +1,134 @@
+{
+
+   "data":[
+      {
+       "title":"Formation",
+	   "content":[
+	      {
+	         "date":"2014 - 2015",
+	         "location":"",
+	         "name":"Année à l'etranger dans le cadre des études",
+	         "content":"Chung Ang University, Corée du Sud"
+	      },
+	      {
+	         "date":"2010 - 2015",
+	         "location":"",
+	         "name":"Diplôme d'expert en Informatique",
+	         "content":"European Institute of Technology (EPITECH) Paris."
+	      },
+	      {
+	         "date":"2010",
+	         "location":"",
+	         "name":"Baccalauréat Scientifique",
+	         "content":"Lycée Des Andaines, Bass-Normandie"
+	      }
+	   ]
+      },
+      {
+       "title":"Experiences",
+       "content":[
+	      {
+	         "date":"(4 mois) 2013",
+	         "location":"Backelite, Paris",
+	         "name":"Développeur Android",
+	         "content":"Développement d’applications Android pour le compte de clients tel que : SFR, Caisse d’épargne, SNCF..."
+	      },
+	      {
+	         "date":"6 mois (2013)",
+	         "location":"",
+	         "name":"Freelance",
+	         "content":"Développement d’applications Android pour la société Jukeboard"
+	      },
+	      {
+	         "date":"8 mois (2012 - 2013)",
+	         "location":"Système Polaire, Paris",
+	         "name":"Développeur Android (2j/semaine)",
+	         "content":"Développeur d’application android pour le compte differents clients"
+	      },
+	      {
+	         "date":"4 mois (2011)",
+	         "location":"JSKL, Paris",
+	         "name":"Développeur Web",
+	         "content":"Réalisation de site internet et d’application mobile à l’aide du Framework Titanium"
+	      }
+	   ]
+      },
+      {
+       "title":"Competences Informatiques",
+       "content":[
+	      {
+	         "date":"",
+	         "location":"",
+	         "name":"Langages",
+	         "content":"C, C++, PHP, JAVA, SHELL"
+	      },
+	      {
+	         "date":"",
+	         "location":"",
+	         "name":"Langages web",
+	         "content":"HTML, CSS, XML, JSON"
+	      },
+	      {
+	         "date":"",
+	         "location":"",
+	         "name":"SDK",
+	         "content":"Android"
+	      },
+	      {
+	         "date":"",
+	         "location":"",
+	         "name":"IDE",
+	         "content":"Eclipse, IntelliJ, Visual Studios"
+	      },
+	      {
+	         "date":"",
+	         "location":"",
+	         "name":"Systèmes",
+	         "content":"Windows, Linux, Mac"
+	      }
+	   ]
+      },
+      {
+       "title":"Competences linguistiques",
+       "content":[
+	      {
+	         "date":"",
+	         "location":"",
+	         "name":"Français",
+	         "content":"Langue maternelle"
+	      },
+	      {
+	         "date":"",
+	         "location":"",
+	         "name":"Anglais",
+	         "content":"Courant"
+	      }
+	   ]
+      },
+      {
+       "title":"Intérêts",
+       "content":[
+	      {
+	         "date":"",
+	         "location":"",
+	         "name":"Voyages",
+	         "content":"Asie (Chine, Corée du Sud, Japon...), Etats Unis, Europe..."
+	      },
+	      {
+	         "date":"",
+	         "location":"",
+	         "name":"Actualité / Informatiques",
+	         "content":"Actu start-up, réseaux sociaux, Android technologies..."
+	      },
+	      {
+	         "date":"",
+	         "location":"",
+	         "name":"Sport",
+	         "content":"Sport en Salle, Squash"
+	      }
+	   ]
+      }
+   ]
+
+ 
+}

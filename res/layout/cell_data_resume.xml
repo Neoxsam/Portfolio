@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tile_separator"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/text_view_title"
+        style="@style/text_part_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="EPITECH" />
+
+    <TextView
+        android:id="@+id/text_view_date"
+        style="@style/text_part_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:drawableLeft="@drawable/ic_date"
+        android:drawablePadding="5dip"
+        android:text="(2010 - 2015)" />
+
+    <TextView
+        android:id="@+id/text_view_location"
+        style="@style/text_part_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:drawableLeft="@drawable/ic_location_place"
+        android:drawablePadding="5dip"
+        android:text="Paris" />
+
+    <TextView
+        android:id="@+id/text_view_content"
+        style="@style/text_part_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:text="Ecole d&apos;expertise en informatique" />
+
+</LinearLayout>

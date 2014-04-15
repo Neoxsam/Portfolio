@@ -1,0 +1,121 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_common" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:background="@drawable/tile_background"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                style="@style/text_part_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:gravity="center_horizontal"
+                android:text="@string/contact_goal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/tile_background"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <ImageView
+				android:id="@+id/imgae_view_profile"
+                android:layout_width="match_parent"
+                android:layout_height="100dip"
+                android:contentDescription="@null"
+                android:src="@drawable/profile_cv" />
+
+            <com.neoxsam.portfolio.view.ProfileInformationCustomView
+                android:id="@+id/custom_view_profile_information"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/tile_background"
+            android:orientation="horizontal"
+            android:padding="10dip" >
+
+            <ImageButton
+                android:id="@+id/image_button_mail"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/selector_mail"
+                android:contentDescription="@null" />
+
+            <ImageButton
+                android:id="@+id/image_button_call"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@null"
+                android:src="@drawable/selector_call"
+                android:contentDescription="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/tile_background"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                style="@style/text_part_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/contact_motivation_title" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/tile_separator"
+                android:contentDescription="@null" />
+
+            <TextView
+                style="@style/text_part_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="5dip"
+                android:text="@string/contact_motivation_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
