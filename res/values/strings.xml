@@ -29,7 +29,4 @@
     <!-- Common -->
     <string name="common_close">Close</string>
 
-    <!-- Error -->
-    <string name="error_mail">Can't find mail application</string>
-    
 </resources>

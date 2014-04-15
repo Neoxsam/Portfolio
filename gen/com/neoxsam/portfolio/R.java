@@ -146,7 +146,7 @@ public final class R {
         public static final int contact_motivation_content=0x7f06000d;
         public static final int contact_motivation_title=0x7f06000c;
         public static final int drawer_close=0x7f060004;
-        public static final int drawer_contact=0x7f060011;
+        public static final int drawer_contact=0x7f060010;
         /**  drawer string list 
  drawer string list 
          */
@@ -154,9 +154,6 @@ public final class R {
         public static final int drawer_profile=0x7f060007;
         public static final int drawer_project=0x7f060006;
         public static final int drawer_resume=0x7f060005;
-        /**  Error 
-         */
-        public static final int error_mail=0x7f060010;
         public static final int hello_world=0x7f060002;
         /**  Project Detail 
          */
