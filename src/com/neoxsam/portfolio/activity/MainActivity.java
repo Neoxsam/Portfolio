@@ -18,7 +18,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.neoxsam.portfolio.Constants;
 import com.neoxsam.portfolio.R;
@@ -34,7 +33,6 @@ public class MainActivity extends Activity {
 	private DrawerLayout mDrawerLayout;
 	private ListView mListViewDrawer;
 	private ActionBarDrawerToggle mDrawerToggle;
-	private long mCurTime;
 
 	private CharSequence mDrawerTitle;
 	private CharSequence mTitle;
@@ -54,7 +52,6 @@ public class MainActivity extends Activity {
 
 		mDrawerList = Utils.createDrawerList(this);
 		mListViewDrawer.setAdapter(new AdapterDrawer(this, mDrawerList));
-		mCurTime = System.currentTimeMillis() / 1000;
 
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 		getActionBar().setHomeButtonEnabled(true);

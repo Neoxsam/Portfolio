@@ -139,7 +139,8 @@ public class ProjectDetailActivity extends Activity {
 	}
 
 	public void onClickGithub(View v) {
-
+		startActivity(new Intent(Intent.ACTION_VIEW,
+				Uri.parse(mProject.getmGithubLink())));
 	}
 
 }

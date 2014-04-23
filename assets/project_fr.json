@@ -1,74 +1,88 @@
 {
    "data":[
       {
-         "icon":"ic_app_mulhouse",
-         "title":"Stationnement Mulhouse",
+         "icon":"ic_google_search",
+         "title":"Google Search",
          "description":"
-Simplifiez-vous le Stationnement! 
-Voici la 1ère application de paiement mobile du stationnement de la ville de Mulhouse sans inscription, ni création de compte, pour les usagers visiteurs comme résidents ! 
-Achetez votre ticket courte durée : je saisis ma plaque, ma zone (aide à la géolocalisation) puis ma durée. 
-Plus de ticket derrière le pare-brise! 
-Les agents de contrôle vérifient le paiement à partir de l’immatriculation que j’ai saisie. 
-Gratuitement, je suis alerté 10 minutes avant la fin de mon ticket de stationnement. 
-Je peux prolonger facilement à distance! 
-Je peux localiser ma voiture à l’achat de mon ticket et consultez les « Infos voirie » en continu. 
-A partir de Mon Compte, j’ai accès à l’historique de mes paiements, mes véhicules et mon code PIN.
+Google Search app for Android: The fastest, easiest way to find what you need on the web and on your device.
+<br/>* Quickly search the web and your phone or tablet
+<br/>* Use your voice to search and more
+<br/>* Get personalized results based on your location
+Plus: *Google Now* gets you just the right information at just the right time. It tells you today’s weather before you start your day, how much traffic to expect before you leave for work, and more (Google Now is currently available on Android 4.1, Jelly Bean).
 ",
-         "duration":"2 mois",
-         "role":"Lead développeur Android. Réalisationde l'intégralité de l'application mobile.",
-         "company":"Backelite",
-         "marketLink":"com.sfr.parking.mulhouse",
-         "githubLink":"",
+         "duration":"7 months",
+         "role":"Lead developer Android",
+         "company":"Google",
+         "marketLink":"com.google.android.googlequicksearchbox",
+         "githubLink":"https://github.com/Neoxsam/Portfolio",
          "screenshot":[
             {
-               "picture":"sfr_1"
+               "picture":"screen_google_search_1"
             },
             {
-               "picture":"sfr_2"
+               "picture":"screen_google_search_2"
             },
             {
-               "picture":"sfr_3"
+               "picture":"screen_google_search_3"
             },
             {
-               "picture":"sfr_4"
+               "picture":"screen_google_search_4"
+            },
+            {
+               "picture":"screen_google_search_5"
             }
          ]
       },
       {
-         "icon":"ic_food_navigator",
-         "title":"FoodNavigator",
+         "icon":"ic_google_search",
+         "title":"Google Search",
          "description":"
-Description
-Access all food ingredients and food technology news from FoodNavigator.com wherever you are with our free Android app. Enjoy the latest articles and multimedia content, follow breaking stories live and receive alerts in real time – the power is in your hands.
-Free to download and easy to use, the FoodNavigator app puts the very latest food and beverage development industry news at your fingertips, even when you’re not connected to the internet.
-Features: 
-- Follow breaking news in real time, classified by topic for ease of use (food science, food additives, sweeteners, flavours, etc…) 
-- Read all your favourite news even when you are offline 
-- Receive news alerts in real time 
-- Select news relevant to your region (Americas, Europe, Middle East and Africa, Asia-Pacific) 
-- Access exclusive videos, podcasts and image galleries fully optimised for your mobile 
-- Bookmark your favourite articles 
-- Share your views in real time with our newsroom and FoodNavigator readers 
-- Share your favourite content",
-         "duration":"2 mois",
-         "role":"Réalisation de l'application en duo avec un autre developpeur à part égale de responsabilité.",
-         "company":"Système Polaire",
-         "marketLink":"com.wrbm.foodnavigator",
-         "githubLink":"",
+Google Search app for Android: The fastest, easiest way to find what you need on the web and on your device.
+<br/>* Quickly search the web and your phone or tablet
+<br/>* Use your voice to search and more
+<br/>* Get personalized results based on your location
+Plus: *Google Now* gets you just the right information at just the right time. It tells you today’s weather before you start your day, how much traffic to expect before you leave for work, and more (Google Now is currently available on Android 4.1, Jelly Bean).
+",
+         "duration":"",
+         "role":"Lead developer Android",
+         "company":"",
+         "marketLink":"",
+         "githubLink":"https://github.com/Neoxsam/Portfolio",
          "screenshot":[
             {
-               "picture":"food_navigator_1"
+               "picture":"screen_google_search_2"
             },
             {
-               "picture":"food_navigator_2"
+               "picture":"screen_google_search_1"
             },
             {
-               "picture":"food_navigator_3"
+               "picture":"screen_google_search_3"
             },
             {
-               "picture":"food_navigator_4"
+               "picture":"screen_google_search_4"
+            },
+            {
+               "picture":"screen_google_search_5"
             }
          ]
+      },
+      {
+         "icon":"ic_google_search",
+         "title":"Google Search",
+         "description":"
+Google Search app for Android: The fastest, easiest way to find what you need on the web and on your device.
+<br/>* Quickly search the web and your phone or tablet
+<br/>* Use your voice to search and more
+<br/>* Get personalized results based on your location
+Plus: *Google Now* gets you just the right information at just the right time. It tells you today’s weather before you start your day, how much traffic to expect before you leave for work, and more (Google Now is currently available on Android 4.1, Jelly Bean).
+",
+         "duration":"7 months",
+         "role":"",
+         "company":"Google",
+         "marketLink":"com.google.android.googlequicksearchbox",
+         "githubLink":"",
+         "screenshot":[
+         ]
       }
-   ]
+  ]
 }

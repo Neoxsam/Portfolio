@@ -47,8 +47,7 @@
 				android:id="@+id/imgae_view_profile"
                 android:layout_width="match_parent"
                 android:layout_height="100dip"
-                android:contentDescription="@null"
-                android:src="@drawable/profile_cv" />
+                android:contentDescription="@null"/>
 
             <com.neoxsam.portfolio.view.ProfileInformationCustomView
                 android:id="@+id/custom_view_profile_information"

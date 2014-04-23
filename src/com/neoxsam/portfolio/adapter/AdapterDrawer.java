@@ -19,7 +19,6 @@ public class AdapterDrawer extends BaseAdapter implements ListAdapter {
     // Properties
     //================================================================================
 
-    private Context mContext;
     private List<ModelDrawerElem> mDrawerList;
     private LayoutInflater mInflater;
     
@@ -28,7 +27,6 @@ public class AdapterDrawer extends BaseAdapter implements ListAdapter {
     //================================================================================
 
     public AdapterDrawer(Context context, List<ModelDrawerElem> drawerList) {
-        mContext = context;
         mDrawerList = drawerList;
         mInflater = LayoutInflater.from(context);
     }

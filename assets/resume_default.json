@@ -2,24 +2,24 @@
 
    "data":[
       {
-       "title":"Formation",
+       "title":"Education",
 	   "content":[
 	      {
 	         "date":"2014 - 2015",
 	         "location":"",
-	         "name":"Année à l'etranger dans le cadre des études",
-	         "content":"Chung Ang University, Corée du Sud"
+	         "name":"One Year Abroad",
+	         "content":"Chung Ang University, South Korea"
 	      },
 	      {
 	         "date":"2010 - 2015",
 	         "location":"",
-	         "name":"Diplôme d'expert en Informatique",
+	         "name":"Engineering degree in Computer Science",
 	         "content":"European Institute of Technology (EPITECH) Paris."
 	      },
 	      {
 	         "date":"2010",
 	         "location":"",
-	         "name":"Baccalauréat Scientifique",
+	         "name":"Scientific French Baccalauréat",
 	         "content":"Lycée Des Andaines, Bass-Normandie"
 	      }
 	   ]
@@ -28,44 +28,38 @@
        "title":"Experiences",
        "content":[
 	      {
-	         "date":"(4 mois) 2013",
-	         "location":"Backelite, Paris",
-	         "name":"Développeur Android",
-	         "content":"Développement d’applications Android pour le compte de clients tel que : SFR, Caisse d’épargne, SNCF..."
+	         "date":"(4 months) 2013",
+	         "location":"InoStartup, Paris",
+	         "name":"Android Developer Android",
+	         "content":"Creation of Android Application"
 	      },
 	      {
-	         "date":"6 mois (2013)",
-	         "location":"",
-	         "name":"Freelance",
-	         "content":"Développement d’applications Android pour la société Jukeboard"
+	         "date":"(8 months) 2013",
+	         "location":"MyCarOnline, London",
+	         "name":"Android Developer Android",
+	         "content":"Creation of Android Application"
 	      },
 	      {
-	         "date":"8 mois (2012 - 2013)",
-	         "location":"Système Polaire, Paris",
-	         "name":"Développeur Android (2j/semaine)",
-	         "content":"Développeur d’application android pour le compte differents clients"
-	      },
-	      {
-	         "date":"4 mois (2011)",
-	         "location":"JSKL, Paris",
-	         "name":"Développeur Web",
-	         "content":"Réalisation de site internet et d’application mobile à l’aide du Framework Titanium"
+	         "date":"(4 months) 2012",
+	         "location":"AllInclude, Paris",
+	         "name":"PHP developer",
+	         "content":"Creation of Web site for different customer"
 	      }
 	   ]
       },
       {
-       "title":"Competences Informatiques",
+       "title":"Skills",
        "content":[
 	      {
 	         "date":"",
 	         "location":"",
-	         "name":"Langages",
+	         "name":"Languages",
 	         "content":"C, C++, PHP, JAVA, SHELL"
 	      },
 	      {
 	         "date":"",
 	         "location":"",
-	         "name":"Langages web",
+	         "name":"Languages Web",
 	         "content":"HTML, CSS, XML, JSON"
 	      },
 	      {
@@ -78,53 +72,47 @@
 	         "date":"",
 	         "location":"",
 	         "name":"IDE",
-	         "content":"Eclipse, IntelliJ, Visual Studios"
+	         "content":"Android Studio, Eclipse, IntelliJ, Visual Studios"
 	      },
 	      {
 	         "date":"",
 	         "location":"",
-	         "name":"Systèmes",
-	         "content":"Windows, Linux, Mac"
+	         "name":"Operating system",
+	         "content":"Windows, Linux, Mac OS"
 	      }
 	   ]
       },
       {
-       "title":"Competences linguistiques",
+       "title":"Languages",
        "content":[
 	      {
 	         "date":"",
 	         "location":"",
 	         "name":"Français",
-	         "content":"Langue maternelle"
+	         "content":"Native"
 	      },
 	      {
 	         "date":"",
 	         "location":"",
 	         "name":"Anglais",
-	         "content":"Courant"
+	         "content":"Professional working proficiency"
 	      }
 	   ]
       },
       {
-       "title":"Intérêts",
+       "title":"Interests",
        "content":[
 	      {
 	         "date":"",
 	         "location":"",
-	         "name":"Voyages",
-	         "content":"Asie (Chine, Corée du Sud, Japon...), Etats Unis, Europe..."
+	         "name":"Travel",
+	         "content":"Asia (China, South Korea, Japan...), USA, Europe..."
 	      },
 	      {
 	         "date":"",
 	         "location":"",
-	         "name":"Actualité / Informatiques",
-	         "content":"Actu start-up, réseaux sociaux, Android technologies..."
-	      },
-	      {
-	         "date":"",
-	         "location":"",
-	         "name":"Sport",
-	         "content":"Sport en Salle, Squash"
+	         "name":"Divers",
+	         "content":"Cinema, Music..."
 	      }
 	   ]
       }

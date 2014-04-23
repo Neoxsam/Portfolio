@@ -22,8 +22,7 @@
                 android:id="@+id/image_view_project_icon_app"
                 android:layout_width="match_parent"
                 android:layout_height="100dip"
-                android:contentDescription="@null"
-                android:src="@drawable/ic_app_mulhouse" />
+                android:contentDescription="@null" />
 
             <TextView
                 android:id="@+id/text_view_project_title"

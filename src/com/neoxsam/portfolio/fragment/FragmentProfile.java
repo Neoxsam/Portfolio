@@ -39,7 +39,6 @@ public class FragmentProfile extends Fragment {
 	private TextView mTextViewMotivation;
 	private LinearLayout mLayoutGoal;
 	private LinearLayout mLayoutMotivation;
-	private long mCurTime;
 	private ModelProfileData mProfileData;
 	private ProfileInformationCustomView mInformationView;
 
@@ -68,8 +67,6 @@ public class FragmentProfile extends Fragment {
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.fragment_profile, container, false);
-
-		mCurTime = System.currentTimeMillis() / 1000;
 
 		mImageButtonMail = (ImageButton) v.findViewById(R.id.image_button_mail);
 		mImageButtonCall = (ImageButton) v.findViewById(R.id.image_button_call);
