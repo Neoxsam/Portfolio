@@ -15,8 +15,8 @@ public class Constants {
 	public final static String DATABASE_NAME = "socialMovieFinderDatabase";
 
 	// PERSONNAL INFORMATION
-	public final static String MY_EMAIL = "samuel.terroitin@gmail.com";
-	public final static String MY_PHONE_NUMBER = "06.17.09.44.36";
+	public final static String MY_EMAIL = "john.doe@gmail.com";
+	public final static String MY_PHONE_NUMBER = "06.18.09.44.36";
 
 	// TAG FRAGMENT
 	public final static String FRAGMENT_RESUME = "fragment_resume";
