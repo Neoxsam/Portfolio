@@ -79,23 +79,25 @@ public final class R {
         public static final int tile_separator=0x7f020031;
     }
     public static final class id {
-        public static final int action_call=0x7f090020;
-        public static final int action_mail=0x7f09001f;
-        public static final int action_settings=0x7f09001e;
+        public static final int action_call=0x7f090024;
+        public static final int action_mail=0x7f090023;
+        public static final int action_settings=0x7f090022;
         public static final int content_frame=0x7f090001;
-        public static final int custom_view_formation=0x7f09001d;
+        public static final int custom_view_formation=0x7f090021;
         public static final int custom_view_gallery=0x7f090010;
-        public static final int custom_view_profile_information=0x7f090019;
-        public static final int custom_view_project=0x7f09001c;
+        public static final int custom_view_profile_information=0x7f09001b;
+        public static final int custom_view_project=0x7f090020;
         public static final int drawer_layout=0x7f090000;
         public static final int horizontalScrollView1=0x7f09000f;
-        public static final int image_button_call=0x7f09001b;
+        public static final int image_button_call=0x7f09001d;
         public static final int image_button_github=0x7f09000d;
-        public static final int image_button_mail=0x7f09001a;
+        public static final int image_button_mail=0x7f09001c;
         public static final int image_button_play_store=0x7f09000b;
         public static final int image_view_app_icon=0x7f090011;
         public static final int image_view_project_icon_app=0x7f090004;
-        public static final int imgae_view_profile=0x7f090018;
+        public static final int imgae_view_profile=0x7f09001a;
+        public static final int layout_goal=0x7f090018;
+        public static final int layout_motivation=0x7f09001e;
         public static final int left_drawer=0x7f090002;
         public static final int linear_layout_gallery=0x7f09000e;
         public static final int linear_layout_github=0x7f09000c;
@@ -104,8 +106,10 @@ public final class R {
         public static final int text_view_content=0x7f090017;
         public static final int text_view_date=0x7f090015;
         public static final int text_view_description=0x7f090013;
+        public static final int text_view_goal=0x7f090019;
         public static final int text_view_location=0x7f090016;
         public static final int text_view_more_information=0x7f090014;
+        public static final int text_view_motivation=0x7f09001f;
         public static final int text_view_project_company=0x7f090008;
         public static final int text_view_project_description=0x7f090006;
         public static final int text_view_project_duration=0x7f090007;
@@ -137,16 +141,15 @@ public final class R {
         /**  Common 
  Contact 
          */
-        public static final int common_close=0x7f06000f;
+        public static final int common_close=0x7f06000c;
         /**  Contact 
- Contact 
          */
-        public static final int contact_cant_use_call=0x7f06000b;
-        public static final int contact_goal=0x7f06000e;
-        public static final int contact_motivation_content=0x7f06000d;
-        public static final int contact_motivation_title=0x7f06000c;
+        public static final int contact_cant_use_call=0x7f06000e;
+        /**  Contact 
+         */
+        public static final int contact_motivation_title=0x7f06000b;
         public static final int drawer_close=0x7f060004;
-        public static final int drawer_contact=0x7f060010;
+        public static final int drawer_contact=0x7f06000d;
         /**  drawer string list 
  drawer string list 
          */

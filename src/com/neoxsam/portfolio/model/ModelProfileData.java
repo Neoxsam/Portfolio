@@ -7,6 +7,8 @@ import org.codehaus.jackson.annotate.JsonProperty;
 public class ModelProfileData{
 
 	private String mProfilePicture;
+	private String mResearch;
+	private String mMotivation;
 	private List<ModelProfileInformation> mListInformation;
 	
 	public ModelProfileData() {
@@ -29,4 +31,24 @@ public class ModelProfileData{
 	public void setmListInformation(List<ModelProfileInformation> mListInformation) {
 		this.mListInformation = mListInformation;
 	}
+
+	public String getmResearch() {
+		return mResearch;
+	}
+
+	@JsonProperty("research")
+	public void setmResearch(String mResearch) {
+		this.mResearch = mResearch;
+	}
+
+	public String getmMotivation() {
+		return mMotivation;
+	}
+
+	@JsonProperty("motivation")
+	public void setmMotivation(String mMotivation) {
+		this.mMotivation = mMotivation;
+	}
+	
+	
 }

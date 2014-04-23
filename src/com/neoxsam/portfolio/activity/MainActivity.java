@@ -89,19 +89,17 @@ public class MainActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu items for use in the action bar
 		if (Utils.isValidString(Constants.MY_EMAIL)
-				&& Utils.isValidString(Constants.MY_PHONE_NUMBER)
-				&& mCurTime > Constants.AVAILABLE_TIME) {
+				&& Utils.isValidString(Constants.MY_PHONE_NUMBER)) {
 			MenuInflater inflater = getMenuInflater();
 			inflater.inflate(R.menu.main_activity_actions_phone_mail, menu);
 			return super.onCreateOptionsMenu(menu);
 		} else if (Utils.isValidString(Constants.MY_EMAIL)
-				&& (!Utils.isValidString(Constants.MY_PHONE_NUMBER) || mCurTime < Constants.AVAILABLE_TIME)) {
+				&& !Utils.isValidString(Constants.MY_PHONE_NUMBER)) {
 			MenuInflater inflater = getMenuInflater();
 			inflater.inflate(R.menu.main_activity_actions_mail, menu);
 			return super.onCreateOptionsMenu(menu);
 		} else if (!Utils.isValidString(Constants.MY_EMAIL)
-				&& Utils.isValidString(Constants.MY_PHONE_NUMBER)
-				&& mCurTime > Constants.AVAILABLE_TIME) {
+				&& Utils.isValidString(Constants.MY_PHONE_NUMBER)) {
 			MenuInflater inflater = getMenuInflater();
 			inflater.inflate(R.menu.main_activity_actions_phone, menu);
 			return super.onCreateOptionsMenu(menu);

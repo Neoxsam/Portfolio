@@ -21,6 +21,8 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import com.neoxsam.portfolio.Constants;
 import com.neoxsam.portfolio.R;
@@ -33,6 +35,10 @@ public class FragmentProfile extends Fragment {
 	private ImageButton mImageButtonMail;
 	private ImageButton mImageButtonCall;
 	private ImageView mImageViewProfile;
+	private TextView mTextViewGoal;
+	private TextView mTextViewMotivation;
+	private LinearLayout mLayoutGoal;
+	private LinearLayout mLayoutMotivation;
 	private long mCurTime;
 	private ModelProfileData mProfileData;
 	private ProfileInformationCustomView mInformationView;
@@ -70,12 +76,28 @@ public class FragmentProfile extends Fragment {
 		mInformationView = (ProfileInformationCustomView) v
 				.findViewById(R.id.custom_view_profile_information);
 		mImageViewProfile = (ImageView) v.findViewById(R.id.imgae_view_profile);
+		mTextViewGoal = (TextView) v.findViewById(R.id.text_view_goal);
+		mTextViewMotivation = (TextView) v.findViewById(R.id.text_view_motivation);
+		mLayoutGoal = (LinearLayout) v.findViewById(R.id.layout_goal);
+		mLayoutMotivation = (LinearLayout) v.findViewById(R.id.layout_motivation);
 		
 		if (mProfileData != null) {
 			if (mProfileData.getmListInformation() != null) {
 				mInformationView.initView(mProfileData.getmListInformation());
 			}
 			
+			if (Utils.isValidString(mProfileData.getmMotivation())) {
+				mTextViewMotivation.setText(mProfileData.getmMotivation());
+			} else {
+				mLayoutMotivation.setVisibility(View.GONE);
+			}
+
+			if (Utils.isValidString(mProfileData.getmResearch())) {
+				mTextViewGoal.setText(mProfileData.getmResearch());
+			} else {
+				mLayoutGoal.setVisibility(View.GONE);
+			}
+
 			if (Utils.isValidString(mProfileData.getmProfilePicture())) {
 				int imageResource = getResources().getIdentifier(
 						"drawable/" + mProfileData.getmProfilePicture(), null,
@@ -108,14 +130,9 @@ public class FragmentProfile extends Fragment {
 			@Override
 			public void onClick(View v) {
 
-				if (mCurTime < Constants.AVAILABLE_TIME) {
-					WarnCallDialogFragment dialog = new WarnCallDialogFragment();
-					dialog.show(getFragmentManager(), "");
-				} else {
 					Intent intent = new Intent(Intent.ACTION_CALL, Uri
 							.parse("tel:" + Constants.MY_PHONE_NUMBER));
 					startActivity(intent);
-				}
 			}
 		});
 

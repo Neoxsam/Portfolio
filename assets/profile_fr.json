@@ -1,17 +1,19 @@
 {
    "profilePicture":"profile_cv",
+   "research":"",
+   "motivation":"",
    "content":[
-      {
-         "content":"Actually in Korea until July 7th"
-      },
       {
          "content":"John Doe"
       },
       {
-         "content":"samuel.terroitin@gmail.com"
+         "content":"john.doe@gmail.com"
       },
       {
-         "content":"22ans"
+         "content":"22 ans"
+      },
+      {
+         "content":"Ajouter autant d'éléments que vous le souhaitez!"
       }
    ]
 }
