@@ -10,7 +10,7 @@
     <string name="drawer_open">Open !</string>
     <string name="drawer_close">Close !</string>
     <string name="drawer_resume">Resume</string>
-    <string name="drawer_project">Project</string>
+    <string name="drawer_project">Projects</string>
     <string name="drawer_profile">Profile</string>
 
     <!-- Project Detail -->

@@ -146,24 +146,6 @@ public class FragmentProfile extends Fragment {
 		});
 	}
 
-	public static class WarnCallDialogFragment extends DialogFragment {
-		@Override
-		public Dialog onCreateDialog(Bundle savedInstanceState) {
-			// Use the Builder class for convenient dialog construction
-			AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-			builder.setMessage(R.string.contact_cant_use_call)
-					.setNegativeButton(R.string.common_close,
-							new DialogInterface.OnClickListener() {
-								public void onClick(DialogInterface dialog,
-										int id) {
-									// User cancelled the dialog
-								}
-							});
-			// Create the AlertDialog object and return it
-			return builder.create();
-		}
-	}
-
 	@Override
 	public void onResume() {
 		super.onResume();

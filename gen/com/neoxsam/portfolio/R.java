@@ -117,20 +117,20 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f060001;
         /**  basic 
+ basic 
          */
         public static final int app_name=0x7f060000;
         /**  Common 
- Contact 
+ Common 
          */
         public static final int common_close=0x7f06000c;
         /**  Contact 
          */
-        public static final int contact_cant_use_call=0x7f06000e;
+        public static final int contact_cant_use_call=0x7f06000d;
         /**  Contact 
          */
         public static final int contact_motivation_title=0x7f06000b;
         public static final int drawer_close=0x7f060004;
-        public static final int drawer_contact=0x7f06000d;
         /**  drawer string list 
  drawer string list 
          */
@@ -140,10 +140,12 @@ public final class R {
         public static final int drawer_resume=0x7f060005;
         public static final int hello_world=0x7f060002;
         /**  Project Detail 
+ Project Detail 
          */
         public static final int project_detail_detail=0x7f060008;
         public static final int project_detail_screenshot=0x7f060009;
         /**  Project Sum 
+ Project Sum 
          */
         public static final int project_sum_more_information=0x7f06000a;
     }

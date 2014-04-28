@@ -20,6 +20,7 @@
 			android:layout_marginRight="10dip"
             android:background="@drawable/tile_background"
             android:orientation="vertical"
+            android:gravity="center"
             android:padding="10dip" >
 
             <TextView
